@@ -2969,7 +2969,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 203.2 40.005 0)
 			(effects
 				(font
@@ -3041,7 +3041,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 203.2 106.045 0)
 			(effects
 				(font
@@ -3115,7 +3115,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 			(at 139.065 91.44 0)
 			(effects
 				(font
@@ -3201,7 +3201,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 39.37 81.28 0)
 			(effects
 				(font
@@ -3269,7 +3269,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_NKK_BB15AH"
 			(at 73.66 53.34 0)
 			(effects
 				(font
@@ -3342,7 +3342,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuseholder_Clip-5x20mm_Keystone_3512P_Inline_P23.62x7.27mm_D1.02x2.41x1.02x1.57mm_Horizontal"
 			(at 43.942 62.23 90)
 			(effects
 				(font
@@ -3410,7 +3410,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Transformer_THT:Transformer_CHK_EI48-8VA_2xSec"
 			(at 100.33 72.39 0)
 			(effects
 				(font
@@ -3562,7 +3562,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Varistor:RV_Disc_D12mm_W4.7mm_P7.5mm"
 			(at 60.452 72.39 90)
 			(effects
 				(font
@@ -3884,7 +3884,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 			(at 116.205 91.44 0)
 			(effects
 				(font
@@ -4108,7 +4108,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 			(at 116.205 54.61 0)
 			(effects
 				(font
@@ -4262,7 +4262,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 			(at 139.065 54.61 0)
 			(effects
 				(font
