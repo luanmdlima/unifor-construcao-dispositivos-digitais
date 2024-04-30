@@ -1,0 +1,203 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "82998b71-606c-4e03-99b7-477e2a65cb94")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 22.86 62.23)
+		(size 25.4 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "06c87573-6664-4654-8982-153b1eeab2af")
+		(property "Sheetname" "Entradas Analogicas"
+			(at 22.86 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "entradas_analogicas.kicad_sch"
+			(at 22.86 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "av3"
+				(path "/82998b71-606c-4e03-99b7-477e2a65cb94"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 68.58 27.94)
+		(size 25.4 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "93efd14b-15b4-4ad0-945d-8c6626c8e4c1")
+		(property "Sheetname" "Teclado Matricial"
+			(at 68.58 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "teclado_matricial.kicad2_sch.kicad_sch"
+			(at 68.58 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "av3"
+				(path "/82998b71-606c-4e03-99b7-477e2a65cb94"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 104.14 26.67)
+		(size 25.4 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c7bd8d38-ffb1-4115-b8fb-3437ffab9c35")
+		(property "Sheetname" "Saídas Digitais Relé"
+			(at 104.14 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "saidas_digitais_rele.kicad_sch3.kicad_sch"
+			(at 104.14 50.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "av3"
+				(path "/82998b71-606c-4e03-99b7-477e2a65cb94"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 26.67)
+		(size 27.94 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e435d5f1-a5bd-4558-bcfe-eb0eb4fdd2ed")
+		(property "Sheetname" "Entradas Digitais apto Isolados"
+			(at 25.4 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "entradas_digitais_apto_isolados.kicad_sch"
+			(at 25.4 50.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "av3"
+				(path "/82998b71-606c-4e03-99b7-477e2a65cb94"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 69.85 60.96)
+		(size 25.4 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f171beb6-5f8e-4da6-bc78-acb2437bd512")
+		(property "Sheetname" "Pinos de Gravacao"
+			(at 69.85 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pinos_gravacao.kicad_sch"
+			(at 69.85 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "av3"
+				(path "/82998b71-606c-4e03-99b7-477e2a65cb94"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
