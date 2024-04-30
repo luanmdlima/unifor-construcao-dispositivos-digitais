@@ -405,6 +405,10 @@
     [
       "f171beb6-5f8e-4da6-bc78-acb2437bd512",
       "Pinos de Gravacao"
+    ],
+    [
+      "a11288ef-de27-492e-b20f-7cae37fe8404",
+      "Atmega2560"
     ]
   ],
   "text_variables": {}
