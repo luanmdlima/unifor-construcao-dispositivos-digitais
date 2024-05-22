@@ -409,6 +409,22 @@
     [
       "a11288ef-de27-492e-b20f-7cae37fe8404",
       "Atmega2560"
+    ],
+    [
+      "079b7ee0-01b3-4dca-be32-b8b37521fd09",
+      "LCD 16x02"
+    ],
+    [
+      "99ed4151-0889-4591-936c-afdf281a07a2",
+      "RS232"
+    ],
+    [
+      "5a7eb36d-627f-4d47-8a62-caf8a689718a",
+      "Alimentação"
+    ],
+    [
+      "a6c953df-19a8-4345-bb61-859f2ba9ba76",
+      "Reset"
     ]
   ],
   "text_variables": {}

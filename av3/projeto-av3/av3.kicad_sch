@@ -44,6 +44,82 @@
 		)
 	)
 	(sheet
+		(at 148.59 26.67)
+		(size 24.13 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "079b7ee0-01b3-4dca-be32-b8b37521fd09")
+		(property "Sheetname" "LCD 16x02"
+			(at 148.59 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "lcd16x02.kicad_sch"
+			(at 148.59 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "av3"
+				(path "/82998b71-606c-4e03-99b7-477e2a65cb94"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 90.17)
+		(size 26.67 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5a7eb36d-627f-4d47-8a62-caf8a689718a")
+		(property "Sheetname" "Alimentação"
+			(at 24.13 89.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "alimentacao.kicad_sch"
+			(at 24.13 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "av3"
+				(path "/82998b71-606c-4e03-99b7-477e2a65cb94"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 68.58 27.94)
 		(size 25.4 22.86)
 		(fields_autoplaced yes)
@@ -82,6 +158,44 @@
 		)
 	)
 	(sheet
+		(at 146.05 62.23)
+		(size 25.4 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "99ed4151-0889-4591-936c-afdf281a07a2")
+		(property "Sheetname" "RS232"
+			(at 146.05 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rs232.kicad_sch"
+			(at 146.05 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "av3"
+				(path "/82998b71-606c-4e03-99b7-477e2a65cb94"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 105.41 60.96)
 		(size 24.13 21.59)
 		(fields_autoplaced yes)
@@ -115,6 +229,44 @@
 			(project "av3"
 				(path "/82998b71-606c-4e03-99b7-477e2a65cb94"
 					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 91.44)
+		(size 26.67 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a6c953df-19a8-4345-bb61-859f2ba9ba76")
+		(property "Sheetname" "Reset"
+			(at 63.5 90.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "reset.kicad_sch"
+			(at 63.5 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "av3"
+				(path "/82998b71-606c-4e03-99b7-477e2a65cb94"
+					(page "11")
 				)
 			)
 		)
