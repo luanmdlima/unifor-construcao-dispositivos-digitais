@@ -1574,6 +1574,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 96.52) (xy 138.43 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e345c83-155f-4880-8c5f-06a231b2c0b2")
+	)
+	(wire
+		(pts
 			(xy 138.43 91.44) (xy 138.43 87.63)
 		)
 		(stroke
@@ -1584,7 +1594,17 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 97.79) (xy 157.48 97.79)
+			(xy 138.43 97.79) (xy 124.46 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9999e707-7ae9-4cf2-a54b-cc9e91ae58b4")
+	)
+	(wire
+		(pts
+			(xy 138.43 96.52) (xy 157.48 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1664,10 +1684,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "02370841-4ce2-4a8b-9a26-f2d08c85b99c")
 		(property "Reference" "C6"
-			(at 87.63 63.8809 0)
+			(at 82.296 57.658 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1675,8 +1694,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
-			(at 87.63 66.4209 0)
+		(property "Value" "1uF"
+			(at 82.296 60.198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1684,7 +1703,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_3x5.3"
 			(at 84.7852 69.85 0)
 			(effects
 				(font
@@ -1793,6 +1812,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 111.76 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11a892f0-e048-46b5-b877-375d2b6fc870")
+		(property "Reference" "#PWR067"
+			(at 118.11 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 46.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16ce8112-c6ba-4e42-a9a6-c3aca9c9e402")
+		)
+		(instances
+			(project "av3"
+				(path "/82998b71-606c-4e03-99b7-477e2a65cb94/99ed4151-0889-4591-936c-afdf281a07a2"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 104.14 46.99 90)
 		(unit 1)
@@ -1877,7 +1963,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "1uF"
 			(at 127.381 69.85 90)
 			(effects
 				(font
@@ -1885,7 +1971,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_3x5.3"
 			(at 132.08 73.9648 0)
 			(effects
 				(font
@@ -1995,6 +2081,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 111.76 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "661bc7f4-a260-4503-9cea-8ff1e56daf67")
+		(property "Reference" "#PWR068"
+			(at 118.11 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 54.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a58826d-cd5d-43d3-b8e9-53d917ffa2b9")
+		)
+		(instances
+			(project "av3"
+				(path "/82998b71-606c-4e03-99b7-477e2a65cb94/99ed4151-0889-4591-936c-afdf281a07a2"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:DE9_Plug")
 		(at 165.1 91.44 0)
 		(unit 1)
@@ -2022,7 +2175,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm"
 			(at 165.1 91.44 0)
 			(effects
 				(font
@@ -2093,10 +2246,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "96057df3-86cc-4734-b113-dee8b9f56909")
 		(property "Reference" "C3"
-			(at 128.27 63.8809 0)
+			(at 123.444 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2104,8 +2256,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
-			(at 128.27 66.4209 0)
+		(property "Value" "1uF"
+			(at 123.444 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2113,7 +2265,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_3x5.3"
 			(at 125.4252 69.85 0)
 			(effects
 				(font
@@ -2173,7 +2325,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "1uF"
 			(at 129.159 77.47 90)
 			(effects
 				(font
@@ -2181,7 +2333,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_3x5.3"
 			(at 124.46 83.5152 0)
 			(effects
 				(font
@@ -2224,74 +2376,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 127 53.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "abd0992b-28a0-469d-9cbf-2fca70182ed6")
-		(property "Reference" "C8"
-			(at 127 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "C"
-			(at 127 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 52.3748 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 127 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 127 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e9821e4f-11f4-48cb-bc51-31203cee607c")
-		)
-		(pin "2"
-			(uuid "8110a8c8-ddb1-4023-bedb-cdddbcd3b69a")
-		)
-		(instances
-			(project "av3"
-				(path "/82998b71-606c-4e03-99b7-477e2a65cb94/99ed4151-0889-4591-936c-afdf281a07a2"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 107.95 46.99 90)
 		(unit 1)
@@ -2309,7 +2393,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "10uF/35V"
 			(at 107.061 41.91 90)
 			(effects
 				(font
@@ -2317,7 +2401,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.7"
 			(at 111.76 46.0248 0)
 			(effects
 				(font
@@ -2369,7 +2453,7 @@
 		(dnp no)
 		(uuid "ccac7079-fdef-48fd-baba-05fb73bf5ad9")
 		(property "Reference" "U6"
-			(at 113.03 55.118 0)
+			(at 93.98 55.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2378,7 +2462,7 @@
 			)
 		)
 		(property "Value" "MAX232"
-			(at 113.03 57.658 0)
+			(at 93.98 57.658 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2386,7 +2470,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16_4.55x10.3mm_P1.27mm"
 			(at 105.41 111.76 0)
 			(effects
 				(font
@@ -2488,7 +2572,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 107.95 49.53 90)
 			(effects
 				(font
@@ -2496,7 +2580,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 111.76 53.6448 0)
 			(effects
 				(font

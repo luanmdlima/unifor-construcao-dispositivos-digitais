@@ -383,7 +383,7 @@
 			)
 		)
 	)
-	(global_label "Entrada Analógica 5"
+	(global_label "ADC4"
 		(shape input)
 		(at 54.61 74.93 0)
 		(fields_autoplaced yes)
@@ -395,7 +395,7 @@
 		)
 		(uuid "1deed2fb-cf33-402e-b688-47a80a98efb6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.189 74.93 0)
+			(at 62.4333 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -405,7 +405,7 @@
 			)
 		)
 	)
-	(global_label "Entrada Analógica 4"
+	(global_label "ADC3"
 		(shape input)
 		(at 175.26 52.07 0)
 		(fields_autoplaced yes)
@@ -417,7 +417,7 @@
 		)
 		(uuid "2e1c1a71-711f-4298-a1ff-64856b8ca47e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.839 52.07 0)
+			(at 183.0833 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -427,7 +427,7 @@
 			)
 		)
 	)
-	(global_label "Entrada Analógica 7"
+	(global_label "ADC6"
 		(shape input)
 		(at 135.89 74.93 0)
 		(fields_autoplaced yes)
@@ -439,7 +439,7 @@
 		)
 		(uuid "3d9b37e9-549c-4147-8419-29eee292c814")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.469 74.93 0)
+			(at 143.7133 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -449,7 +449,7 @@
 			)
 		)
 	)
-	(global_label "Entrada Analógica 1"
+	(global_label "ADC0"
 		(shape input)
 		(at 54.61 52.07 0)
 		(fields_autoplaced yes)
@@ -461,7 +461,7 @@
 		)
 		(uuid "5e032015-86f4-47bf-b898-a381a2b4ba6d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.189 52.07 0)
+			(at 62.4333 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -471,7 +471,7 @@
 			)
 		)
 	)
-	(global_label "Entrada Analógica 6"
+	(global_label "ADC5"
 		(shape input)
 		(at 95.25 74.93 0)
 		(fields_autoplaced yes)
@@ -483,7 +483,7 @@
 		)
 		(uuid "6ab91c2e-dcab-44d3-a263-8dd3ecbf5572")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.829 74.93 0)
+			(at 103.0733 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -493,7 +493,7 @@
 			)
 		)
 	)
-	(global_label "Entrada Analógica 2"
+	(global_label "ADC1"
 		(shape input)
 		(at 95.25 52.07 0)
 		(fields_autoplaced yes)
@@ -505,7 +505,7 @@
 		)
 		(uuid "8d31f3d8-5893-41dd-8514-5faf05a035a6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.829 52.07 0)
+			(at 103.0733 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -515,7 +515,7 @@
 			)
 		)
 	)
-	(global_label "Entrada Analógica 8"
+	(global_label "ADC7"
 		(shape input)
 		(at 175.26 74.93 0)
 		(fields_autoplaced yes)
@@ -527,7 +527,7 @@
 		)
 		(uuid "b9c40927-70d8-4b15-9f36-4db138661f50")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.839 74.93 0)
+			(at 183.0833 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -537,7 +537,7 @@
 			)
 		)
 	)
-	(global_label "Entrada Analógica 3"
+	(global_label "ADC2"
 		(shape input)
 		(at 135.89 52.07 0)
 		(fields_autoplaced yes)
@@ -549,7 +549,7 @@
 		)
 		(uuid "cbc25ad7-58b1-4cc1-9b8c-c8f5dd831f05")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.469 52.07 0)
+			(at 143.7133 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -587,7 +587,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 171.45 52.07 0)
 			(effects
 				(font
@@ -726,7 +726,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 91.44 74.93 0)
 			(effects
 				(font
@@ -799,7 +799,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 132.08 74.93 0)
 			(effects
 				(font
@@ -1136,7 +1136,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 50.8 52.07 0)
 			(effects
 				(font
@@ -1275,7 +1275,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 50.8 74.93 0)
 			(effects
 				(font
@@ -1414,7 +1414,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 132.08 52.07 0)
 			(effects
 				(font
@@ -1883,7 +1883,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 91.44 52.07 0)
 			(effects
 				(font
@@ -2022,7 +2022,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 171.45 74.93 0)
 			(effects
 				(font

@@ -5,7 +5,7 @@
 	(uuid "7ab969e7-78cf-4a4f-89f4-6bff105a81d5")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Screw_Terminal_01x02"
+		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -19,7 +19,7 @@
 					)
 				)
 			)
-			(property "Value" "Screw_Terminal_01x02"
+			(property "Value" "Conn_01x02"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -45,7 +45,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -54,7 +54,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "screw terminal"
+			(property "ki_keywords" "connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -63,7 +63,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TerminalBlock*:*"
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -72,7 +72,29 @@
 					(hide yes)
 				)
 			)
-			(symbol "Screw_Terminal_01x02_1_1"
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(rectangle
 					(start -1.27 1.27)
 					(end 1.27 -3.81)
@@ -82,76 +104,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 0.508) (xy 0.508 -0.3302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 				(pin passive line
@@ -1888,6 +1840,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 92.71) (xy 114.3 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c6a4462-347d-4b3a-aefe-0a127fc58b16")
+	)
+	(wire
+		(pts
 			(xy 76.2 27.94) (xy 76.2 30.48)
 		)
 		(stroke
@@ -2318,16 +2280,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 92.71) (xy 114.3 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8c8dbbb-c439-4e22-b2f3-4b7aea6b02a5")
-	)
-	(wire
-		(pts
 			(xy 208.28 27.94) (xy 213.36 27.94)
 		)
 		(stroke
@@ -2386,7 +2338,7 @@
 		)
 		(uuid "f6b9f11f-843c-420c-b673-760e2ab31c4c")
 	)
-	(global_label "Entrada Digital 0"
+	(global_label "I.0"
 		(shape input)
 		(at 67.31 30.48 270)
 		(fields_autoplaced yes)
@@ -2398,7 +2350,7 @@
 		)
 		(uuid "16b82685-5217-437e-a40e-4546cb121e9a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.31 50.0353 90)
+			(at 67.31 35.8843 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2408,7 +2360,7 @@
 			)
 		)
 	)
-	(global_label "Entrada Digital 4"
+	(global_label "I.4"
 		(shape input)
 		(at 67.31 81.28 270)
 		(fields_autoplaced yes)
@@ -2420,7 +2372,7 @@
 		)
 		(uuid "6192189a-fd21-49db-b9bd-30590c37a70c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.31 100.8353 90)
+			(at 67.31 86.6843 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2430,7 +2382,7 @@
 			)
 		)
 	)
-	(global_label "Entrada Digital 7"
+	(global_label "I.7"
 		(shape input)
 		(at 273.05 87.63 270)
 		(fields_autoplaced yes)
@@ -2442,7 +2394,7 @@
 		)
 		(uuid "6491e8a5-a7e2-4fa9-8276-f8cc7efdc8e2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.05 107.1853 90)
+			(at 273.05 93.0343 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2452,7 +2404,7 @@
 			)
 		)
 	)
-	(global_label "Entrada Digital 3"
+	(global_label "I.3"
 		(shape input)
 		(at 273.05 31.75 270)
 		(fields_autoplaced yes)
@@ -2464,7 +2416,7 @@
 		)
 		(uuid "90d01c79-02b9-4e1f-8c4d-e4fd258c1680")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.05 51.3053 90)
+			(at 273.05 37.1543 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2474,7 +2426,7 @@
 			)
 		)
 	)
-	(global_label "Entrada Digital 1"
+	(global_label "I.1"
 		(shape input)
 		(at 137.16 29.21 270)
 		(fields_autoplaced yes)
@@ -2486,7 +2438,7 @@
 		)
 		(uuid "a7b51d06-75f7-47a6-9ad3-70308782170d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.16 48.7653 90)
+			(at 137.16 34.6143 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2496,7 +2448,7 @@
 			)
 		)
 	)
-	(global_label "Entrada Digital 5"
+	(global_label "I.5"
 		(shape input)
 		(at 134.62 85.09 270)
 		(fields_autoplaced yes)
@@ -2508,7 +2460,7 @@
 		)
 		(uuid "b240b0f5-8ed0-4cce-8fe9-c30104a8f875")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.62 104.6453 90)
+			(at 134.62 90.4943 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2518,7 +2470,7 @@
 			)
 		)
 	)
-	(global_label "Entrada Digital 2"
+	(global_label "I.2"
 		(shape input)
 		(at 204.47 30.48 270)
 		(fields_autoplaced yes)
@@ -2530,7 +2482,7 @@
 		)
 		(uuid "c7e579cb-a929-40e6-8680-2d0bffe53cfd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.47 50.0353 90)
+			(at 204.47 35.8843 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2540,7 +2492,7 @@
 			)
 		)
 	)
-	(global_label "Entrada Digital 6"
+	(global_label "I.6"
 		(shape input)
 		(at 203.2 86.36 270)
 		(fields_autoplaced yes)
@@ -2552,7 +2504,7 @@
 		)
 		(uuid "f05f4422-6440-42e2-b23d-efa0462f5054")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.2 105.9153 90)
+			(at 203.2 91.7643 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2580,7 +2532,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 208.28 82.55 90)
 			(effects
 				(font
@@ -2588,7 +2540,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 208.28 88.138 90)
 			(effects
 				(font
@@ -2656,7 +2608,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 238.76 91.948 90)
 			(effects
 				(font
@@ -2716,7 +2668,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 173.99 24.13 90)
 			(effects
 				(font
@@ -2724,7 +2676,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 173.99 29.718 90)
 			(effects
 				(font
@@ -2833,6 +2785,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 26.67 43.18 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1191b7e0-b753-41a1-9c0a-2bef96442d4b")
+		(property "Reference" "J1"
+			(at 24.13 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 24.13 44.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
+			(at 26.67 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 26.67 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e1c9a97-4a28-4b77-82c2-4d31ad2dd2a8")
+		)
+		(pin "2"
+			(uuid "22b492a2-9b45-4451-aed1-f65b64f803ef")
+		)
+		(instances
+			(project "av3"
+				(path "/82998b71-606c-4e03-99b7-477e2a65cb94/e435d5f1-a5bd-4558-bcfe-eb0eb4fdd2ed"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 242.57 29.21 90)
 		(unit 1)
@@ -2850,7 +2872,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 242.57 25.4 90)
 			(effects
 				(font
@@ -2858,7 +2880,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 242.57 30.988 90)
 			(effects
 				(font
@@ -2895,76 +2917,6 @@
 			(project "av3"
 				(path "/82998b71-606c-4e03-99b7-477e2a65cb94/e435d5f1-a5bd-4558-bcfe-eb0eb4fdd2ed"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 29.21 93.98 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16ab6c2d-77ae-4cce-95e3-fed04f8d46ea")
-		(property "Reference" "J7"
-			(at 31.75 92.7099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 31.75 95.2499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 29.21 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 29.21 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b9510c89-5ff6-421e-8757-817b09f2c6e3")
-		)
-		(pin "2"
-			(uuid "0882bd0f-1b20-4605-8830-826c217c993c")
-		)
-		(instances
-			(project "av3"
-				(path "/82998b71-606c-4e03-99b7-477e2a65cb94/e435d5f1-a5bd-4558-bcfe-eb0eb4fdd2ed"
-					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -3054,7 +3006,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 36.83 74.93 90)
 			(effects
 				(font
@@ -3062,7 +3014,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 36.83 80.518 90)
 			(effects
 				(font
@@ -3105,6 +3057,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 163.83 43.18 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20bef645-25a6-4b22-a909-620357d5d338")
+		(property "Reference" "J4"
+			(at 161.29 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 161.29 44.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
+			(at 163.83 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 163.83 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bee946e-19b5-4d43-b8d0-7c61e2e34a42")
+		)
+		(pin "2"
+			(uuid "749b18f0-2664-42d0-97f7-6601a1dfe7f1")
+		)
+		(instances
+			(project "av3"
+				(path "/82998b71-606c-4e03-99b7-477e2a65cb94/e435d5f1-a5bd-4558-bcfe-eb0eb4fdd2ed"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Isolator:4N25")
 		(at 191.77 86.36 0)
 		(unit 1)
@@ -3130,7 +3152,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-6_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-6_W7.62mm_SMDSocket_SmallPads"
 			(at 186.69 91.44 0)
 			(effects
 				(font
@@ -3182,76 +3204,6 @@
 			(project "av3"
 				(path "/82998b71-606c-4e03-99b7-477e2a65cb94/e435d5f1-a5bd-4558-bcfe-eb0eb4fdd2ed"
 					(reference "U9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 96.52 97.79 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "31a96ec6-1377-46c6-a679-9a899f82a069")
-		(property "Reference" "J8"
-			(at 99.06 96.5199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 99.06 99.0599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 96.52 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 96.52 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b46166a-6258-4d6c-a42a-6015fc16e4d1")
-		)
-		(pin "2"
-			(uuid "0052f0c8-3b3d-4590-b40c-080c0e46872a")
-		)
-		(instances
-			(project "av3"
-				(path "/82998b71-606c-4e03-99b7-477e2a65cb94/e435d5f1-a5bd-4558-bcfe-eb0eb4fdd2ed"
-					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -3369,7 +3321,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 33.02 34.798 90)
 			(effects
 				(font
@@ -3498,6 +3450,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 93.98 97.79 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4443da7e-6cc1-44f5-b282-8d81cf5ad0bf")
+		(property "Reference" "J3"
+			(at 91.44 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 91.44 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
+			(at 93.98 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 93.98 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d57e645-9b68-482a-8812-7d9789f1c51d")
+		)
+		(pin "2"
+			(uuid "e14b9f41-b68a-4d50-909f-c98463992974")
+		)
+		(instances
+			(project "av3"
+				(path "/82998b71-606c-4e03-99b7-477e2a65cb94/e435d5f1-a5bd-4558-bcfe-eb0eb4fdd2ed"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 247.65 34.29 180)
 		(unit 1)
@@ -3524,7 +3546,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
 			(at 247.65 34.29 0)
 			(effects
 				(font
@@ -3584,7 +3606,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 106.68 22.86 90)
 			(effects
 				(font
@@ -3592,7 +3614,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 106.68 28.448 90)
 			(effects
 				(font
@@ -3660,7 +3682,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 100.33 89.408 90)
 			(effects
 				(font
@@ -3697,6 +3719,76 @@
 			(project "av3"
 				(path "/82998b71-606c-4e03-99b7-477e2a65cb94/e435d5f1-a5bd-4558-bcfe-eb0eb4fdd2ed"
 					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 232.41 44.45 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e04b62c-563e-494a-80cc-02c13365285e")
+		(property "Reference" "J8"
+			(at 229.87 43.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 229.87 45.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
+			(at 232.41 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 232.41 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49e2fae7-db62-4ec2-8dbf-107341059864")
+		)
+		(pin "2"
+			(uuid "668cfbfd-d4e3-44ef-8c53-d54fff76fb9d")
+		)
+		(instances
+			(project "av3"
+				(path "/82998b71-606c-4e03-99b7-477e2a65cb94/e435d5f1-a5bd-4558-bcfe-eb0eb4fdd2ed"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -3794,7 +3886,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-6_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-6_W7.62mm_SMDSocket_SmallPads"
 			(at 120.65 34.29 0)
 			(effects
 				(font
@@ -3869,7 +3961,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 139.7 81.28 90)
 			(effects
 				(font
@@ -3877,7 +3969,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 139.7 86.868 90)
 			(effects
 				(font
@@ -3937,7 +4029,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 72.39 26.67 90)
 			(effects
 				(font
@@ -3945,7 +4037,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 72.39 32.258 90)
 			(effects
 				(font
@@ -4185,7 +4277,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-6_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-6_W7.62mm_SMDSocket_SmallPads"
 			(at 50.8 86.36 0)
 			(effects
 				(font
@@ -4354,7 +4446,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-6_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-6_W7.62mm_SMDSocket_SmallPads"
 			(at 187.96 35.56 0)
 			(effects
 				(font
@@ -4412,6 +4504,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 162.56 99.06 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68f7adbb-9378-411d-bacc-aa28a071b6a6")
+		(property "Reference" "J7"
+			(at 160.02 97.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 160.02 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
+			(at 162.56 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 162.56 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b21ca05a-690c-46f3-9ece-117f43353c69")
+		)
+		(pin "2"
+			(uuid "73a2cf92-6272-4357-a037-9ef12ac6522d")
+		)
+		(instances
+			(project "av3"
+				(path "/82998b71-606c-4e03-99b7-477e2a65cb94/e435d5f1-a5bd-4558-bcfe-eb0eb4fdd2ed"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 142.24 29.21 90)
 		(unit 1)
@@ -4429,7 +4591,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 142.24 25.4 90)
 			(effects
 				(font
@@ -4437,7 +4599,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 142.24 30.988 90)
 			(effects
 				(font
@@ -4632,76 +4794,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 165.1 99.06 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6f832890-37fc-42cc-a862-02bdae916100")
-		(property "Reference" "J9"
-			(at 167.64 97.7899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 167.64 100.3299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 165.1 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 165.1 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b9ba8554-1f2c-43c0-a316-decba89131c1")
-		)
-		(pin "2"
-			(uuid "aa4ed58f-acb9-4659-9614-cb6b32c55a90")
-		)
-		(instances
-			(project "av3"
-				(path "/82998b71-606c-4e03-99b7-477e2a65cb94/e435d5f1-a5bd-4558-bcfe-eb0eb4fdd2ed"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 33.02 83.82 90)
 		(unit 1)
@@ -4727,7 +4819,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 33.02 85.598 90)
 			(effects
 				(font
@@ -4795,7 +4887,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-6_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-6_W7.62mm_SMDSocket_SmallPads"
 			(at 256.54 36.83 0)
 			(effects
 				(font
@@ -4945,7 +5037,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
 			(at 109.22 87.63 0)
 			(effects
 				(font
@@ -5014,7 +5106,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
 			(at 177.8 88.9 0)
 			(effects
 				(font
@@ -5074,7 +5166,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 209.55 26.67 90)
 			(effects
 				(font
@@ -5082,7 +5174,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 209.55 32.258 90)
 			(effects
 				(font
@@ -5125,76 +5217,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 99.06 41.91 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e31737b-8810-4ce7-b640-0101a3be0a8a")
-		(property "Reference" "J2"
-			(at 101.6 40.6399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 101.6 43.1799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 99.06 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "93158163-6e47-4abf-8896-d1ef3a750048")
-		)
-		(pin "2"
-			(uuid "528b0886-b7f4-4849-a77c-4740670a7505")
-		)
-		(instances
-			(project "av3"
-				(path "/82998b71-606c-4e03-99b7-477e2a65cb94/e435d5f1-a5bd-4558-bcfe-eb0eb4fdd2ed"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 111.76 31.75 180)
 		(unit 1)
@@ -5221,7 +5243,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
 			(at 111.76 31.75 0)
 			(effects
 				(font
@@ -5258,6 +5280,76 @@
 			(project "av3"
 				(path "/82998b71-606c-4e03-99b7-477e2a65cb94/e435d5f1-a5bd-4558-bcfe-eb0eb4fdd2ed"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 232.41 100.33 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "805435a3-b985-4062-b0d7-a18a1160a965")
+		(property "Reference" "J9"
+			(at 229.87 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 229.87 101.5999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
+			(at 232.41 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 232.41 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70c96f78-67cb-472a-9758-6810b10bf5f2")
+		)
+		(pin "2"
+			(uuid "bc8998c2-7feb-40cc-bef5-d338399ecbcb")
+		)
+		(instances
+			(project "av3"
+				(path "/82998b71-606c-4e03-99b7-477e2a65cb94/e435d5f1-a5bd-4558-bcfe-eb0eb4fdd2ed"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -5376,7 +5468,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
 			(at 247.65 90.17 0)
 			(effects
 				(font
@@ -5419,146 +5511,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 234.95 44.45 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8d499cee-6de7-4616-b909-a6e2b93daed9")
-		(property "Reference" "J4"
-			(at 237.49 43.1799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 237.49 45.7199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 234.95 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 234.95 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 234.95 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "337f8fde-b661-4a80-bf93-40e9f46e6642")
-		)
-		(pin "2"
-			(uuid "3b6fdd78-95c4-4017-bb01-473cd484a565")
-		)
-		(instances
-			(project "av3"
-				(path "/82998b71-606c-4e03-99b7-477e2a65cb94/e435d5f1-a5bd-4558-bcfe-eb0eb4fdd2ed"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 29.21 43.18 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "92658aae-ae97-41a1-9b5b-4e402db20f4b")
-		(property "Reference" "J1"
-			(at 31.75 41.9099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 31.75 44.4499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 29.21 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 29.21 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4c517a17-8f5b-4c52-9bf9-f4b1739de710")
-		)
-		(pin "2"
-			(uuid "da0b480f-7cd2-4bd6-9aac-cdd5f96e43e1")
-		)
-		(instances
-			(project "av3"
-				(path "/82998b71-606c-4e03-99b7-477e2a65cb94/e435d5f1-a5bd-4558-bcfe-eb0eb4fdd2ed"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 41.91 83.82 180)
 		(unit 1)
@@ -5585,7 +5537,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
 			(at 41.91 83.82 0)
 			(effects
 				(font
@@ -5653,7 +5605,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 238.76 36.068 90)
 			(effects
 				(font
@@ -5713,7 +5665,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 72.39 77.47 90)
 			(effects
 				(font
@@ -5721,7 +5673,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 72.39 83.058 90)
 			(effects
 				(font
@@ -5855,7 +5807,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-6_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-6_W7.62mm_SMDSocket_SmallPads"
 			(at 50.8 35.56 0)
 			(effects
 				(font
@@ -5939,7 +5891,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
 			(at 41.91 33.02 0)
 			(effects
 				(font
@@ -5976,6 +5928,76 @@
 			(project "av3"
 				(path "/82998b71-606c-4e03-99b7-477e2a65cb94/e435d5f1-a5bd-4558-bcfe-eb0eb4fdd2ed"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 96.52 41.91 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6209758-e89e-4322-a88e-04ce0d5b628f")
+		(property "Reference" "J19"
+			(at 93.98 40.6399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 93.98 43.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
+			(at 96.52 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 96.52 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a508899a-b0d3-4942-b058-f06d0deb9992")
+		)
+		(pin "2"
+			(uuid "ad426a03-b675-46b4-aed0-8a52bf5ad3a0")
+		)
+		(instances
+			(project "av3"
+				(path "/82998b71-606c-4e03-99b7-477e2a65cb94/e435d5f1-a5bd-4558-bcfe-eb0eb4fdd2ed"
+					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -6065,7 +6087,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 104.14 78.74 90)
 			(effects
 				(font
@@ -6073,7 +6095,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 104.14 84.328 90)
 			(effects
 				(font
@@ -6133,7 +6155,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 36.83 24.13 90)
 			(effects
 				(font
@@ -6141,7 +6163,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 36.83 29.718 90)
 			(effects
 				(font
@@ -6333,7 +6355,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 278.13 27.94 90)
 			(effects
 				(font
@@ -6341,7 +6363,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 278.13 33.528 90)
 			(effects
 				(font
@@ -6409,7 +6431,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-6_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-6_W7.62mm_SMDSocket_SmallPads"
 			(at 118.11 90.17 0)
 			(effects
 				(font
@@ -6467,76 +6489,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 166.37 43.18 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b067b28b-be23-4a31-b7af-0afaa38fc711")
-		(property "Reference" "J3"
-			(at 168.91 41.9099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 168.91 44.4499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 166.37 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 166.37 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 166.37 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7b5d1eb1-33ae-42f5-b4dc-cd27dc9f3660")
-		)
-		(pin "2"
-			(uuid "815016ce-2253-431e-9e81-3868fc092a3f")
-		)
-		(instances
-			(project "av3"
-				(path "/82998b71-606c-4e03-99b7-477e2a65cb94/e435d5f1-a5bd-4558-bcfe-eb0eb4fdd2ed"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 179.07 33.02 180)
 		(unit 1)
@@ -6563,7 +6515,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
 			(at 179.07 33.02 0)
 			(effects
 				(font
@@ -6623,7 +6575,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 242.57 81.28 90)
 			(effects
 				(font
@@ -6631,7 +6583,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 242.57 86.868 90)
 			(effects
 				(font
@@ -6938,76 +6890,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 234.95 100.33 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cb93ae2d-a0c6-4a8e-873d-78cf1c178a15")
-		(property "Reference" "J10"
-			(at 237.49 99.0599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 237.49 101.5999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 234.95 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 234.95 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 234.95 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e6f26bed-9cd7-488c-bf31-c1d3ec4e1ec6")
-		)
-		(pin "2"
-			(uuid "7040568d-40da-4480-93a8-f2bcb8f07954")
-		)
-		(instances
-			(project "av3"
-				(path "/82998b71-606c-4e03-99b7-477e2a65cb94/e435d5f1-a5bd-4558-bcfe-eb0eb4fdd2ed"
-					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 278.13 87.63 90)
 		(unit 1)
@@ -7025,7 +6907,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 278.13 83.82 90)
 			(effects
 				(font
@@ -7033,7 +6915,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 278.13 89.408 90)
 			(effects
 				(font
@@ -7167,7 +7049,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 170.18 34.798 90)
 			(effects
 				(font
@@ -7367,7 +7249,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-6_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-6_W7.62mm_SMDSocket_SmallPads"
 			(at 256.54 92.71 0)
 			(effects
 				(font
@@ -7442,7 +7324,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 172.72 80.01 90)
 			(effects
 				(font
@@ -7450,7 +7332,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 172.72 85.598 90)
 			(effects
 				(font
@@ -7518,7 +7400,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 168.91 90.678 90)
 			(effects
 				(font
@@ -7586,7 +7468,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 102.87 33.528 90)
 			(effects
 				(font
@@ -7709,6 +7591,76 @@
 			(project "av3"
 				(path "/82998b71-606c-4e03-99b7-477e2a65cb94/e435d5f1-a5bd-4558-bcfe-eb0eb4fdd2ed"
 					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 26.67 93.98 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fbcd5670-5525-44f2-a743-c2f98f9e6acd")
+		(property "Reference" "J2"
+			(at 24.13 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 24.13 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
+			(at 26.67 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 26.67 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e8e4cfa-e671-4cd0-b09d-30a4558e5020")
+		)
+		(pin "2"
+			(uuid "54bdb362-7a65-4007-8ce3-3de81e87b8ea")
+		)
+		(instances
+			(project "av3"
+				(path "/82998b71-606c-4e03-99b7-477e2a65cb94/e435d5f1-a5bd-4558-bcfe-eb0eb4fdd2ed"
+					(reference "J2")
 					(unit 1)
 				)
 			)

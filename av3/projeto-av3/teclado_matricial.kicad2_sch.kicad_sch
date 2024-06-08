@@ -1178,7 +1178,7 @@
 		)
 		(uuid "f522b84a-604e-4125-8f6d-174bb4951213")
 	)
-	(global_label "Teclado C2"
+	(global_label "C3"
 		(shape input)
 		(at 123.19 63.5 90)
 		(fields_autoplaced yes)
@@ -1190,7 +1190,7 @@
 		)
 		(uuid "6bcd5e75-d83d-4cd0-a2e8-c420a2c758ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.19 49.8107 90)
+			(at 123.19 58.0353 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1200,7 +1200,7 @@
 			)
 		)
 	)
-	(global_label "Teclado C3"
+	(global_label "C4"
 		(shape input)
 		(at 140.97 63.5 90)
 		(fields_autoplaced yes)
@@ -1212,7 +1212,7 @@
 		)
 		(uuid "9d752761-5ad1-4148-bf08-eb53a23b0419")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.97 49.8107 90)
+			(at 140.97 58.0353 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1222,7 +1222,7 @@
 			)
 		)
 	)
-	(global_label "Teclado C0"
+	(global_label "C1"
 		(shape input)
 		(at 87.63 63.5 90)
 		(fields_autoplaced yes)
@@ -1234,7 +1234,7 @@
 		)
 		(uuid "9ddb7ebe-2d98-4b98-8286-2b200b53d7e0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.63 49.8107 90)
+			(at 87.63 58.0353 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1244,7 +1244,7 @@
 			)
 		)
 	)
-	(global_label "Teclado L3"
+	(global_label "L4"
 		(shape input)
 		(at 191.77 127 0)
 		(fields_autoplaced yes)
@@ -1256,7 +1256,7 @@
 		)
 		(uuid "a437b1ad-2120-4e19-bf1a-3e5e92cf3a6a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.2174 127 0)
+			(at 196.9928 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1266,7 +1266,7 @@
 			)
 		)
 	)
-	(global_label "Teclado L2"
+	(global_label "L3"
 		(shape input)
 		(at 191.77 111.76 0)
 		(fields_autoplaced yes)
@@ -1278,7 +1278,7 @@
 		)
 		(uuid "c48c0d8e-f693-4007-be7a-0bf7d487e282")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.2174 111.76 0)
+			(at 196.9928 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1288,7 +1288,7 @@
 			)
 		)
 	)
-	(global_label "Teclado L0"
+	(global_label "L1"
 		(shape input)
 		(at 191.77 81.28 0)
 		(fields_autoplaced yes)
@@ -1300,7 +1300,7 @@
 		)
 		(uuid "d818085d-a0ad-4172-94eb-07c63b2ea2b1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.2174 81.28 0)
+			(at 196.9928 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1310,7 +1310,7 @@
 			)
 		)
 	)
-	(global_label "Teclado C1"
+	(global_label "C2"
 		(shape input)
 		(at 105.41 63.5 90)
 		(fields_autoplaced yes)
@@ -1322,7 +1322,7 @@
 		)
 		(uuid "d9f101b4-854c-4cfb-8e97-4049c4f8d9b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.41 49.8107 90)
+			(at 105.41 58.0353 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1332,7 +1332,7 @@
 			)
 		)
 	)
-	(global_label "Teclado L1"
+	(global_label "L2"
 		(shape input)
 		(at 191.77 96.52 0)
 		(fields_autoplaced yes)
@@ -1344,7 +1344,7 @@
 		)
 		(uuid "f05184a6-dabd-42ad-ac15-369b16225f6d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.2174 96.52 0)
+			(at 196.9928 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1382,7 +1382,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
 			(at 146.05 121.92 0)
 			(effects
 				(font
@@ -1443,7 +1443,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 156.21 63.4999 0)
 			(effects
 				(font
@@ -1452,7 +1452,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 151.892 62.23 90)
 			(effects
 				(font
@@ -1522,7 +1522,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
 			(at 110.49 106.68 0)
 			(effects
 				(font
@@ -1592,7 +1592,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
 			(at 110.49 91.44 0)
 			(effects
 				(font
@@ -1662,7 +1662,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
 			(at 92.71 76.2 0)
 			(effects
 				(font
@@ -1723,7 +1723,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 166.37 63.4999 0)
 			(effects
 				(font
@@ -1732,7 +1732,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 162.052 62.23 90)
 			(effects
 				(font
@@ -1802,7 +1802,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
 			(at 146.05 91.44 0)
 			(effects
 				(font
@@ -1863,7 +1863,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 186.69 63.4999 0)
 			(effects
 				(font
@@ -1872,7 +1872,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 182.372 62.23 90)
 			(effects
 				(font
@@ -1942,7 +1942,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
 			(at 92.71 106.68 0)
 			(effects
 				(font
@@ -2012,7 +2012,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
 			(at 128.27 121.92 0)
 			(effects
 				(font
@@ -2082,7 +2082,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
 			(at 92.71 91.44 0)
 			(effects
 				(font
@@ -2152,7 +2152,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
 			(at 128.27 106.68 0)
 			(effects
 				(font
@@ -2222,7 +2222,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
 			(at 110.49 76.2 0)
 			(effects
 				(font
@@ -2292,7 +2292,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
 			(at 146.05 106.68 0)
 			(effects
 				(font
@@ -2362,7 +2362,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
 			(at 128.27 76.2 0)
 			(effects
 				(font
@@ -2423,7 +2423,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 176.53 63.4999 0)
 			(effects
 				(font
@@ -2432,7 +2432,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 172.212 62.23 90)
 			(effects
 				(font
@@ -2502,7 +2502,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
 			(at 92.71 121.92 0)
 			(effects
 				(font
@@ -2638,7 +2638,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
 			(at 146.05 76.2 0)
 			(effects
 				(font
@@ -2708,7 +2708,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
 			(at 128.27 91.44 0)
 			(effects
 				(font
@@ -2778,7 +2778,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
 			(at 110.49 121.92 0)
 			(effects
 				(font
