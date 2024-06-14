@@ -1231,10 +1231,22 @@
 		(uuid "5e15acc8-f5af-4c1d-8fa3-922ccd87c8b7")
 	)
 	(junction
+		(at 57.15 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ba356ca-f539-4ff4-8cdc-b5a1b8f40c2f")
+	)
+	(junction
 		(at 130.81 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7896404f-cd51-4bc0-9afa-024860333428")
+	)
+	(junction
+		(at 57.15 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79ab619d-463c-4e49-b4a6-3c7c7bf11a75")
 	)
 	(junction
 		(at 226.06 83.82)
@@ -1285,22 +1297,10 @@
 		(uuid "e1129675-31d6-48db-8a90-bc14c219d120")
 	)
 	(junction
-		(at 57.15 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e732d7a5-faa6-4260-92f3-61ad4bcabb3f")
-	)
-	(junction
 		(at 130.81 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0db6120-bfe1-497b-a6e7-630cdf9fefa0")
-	)
-	(junction
-		(at 54.61 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fded4bd3-4b66-40bb-8e01-473c16bc59ab")
 	)
 	(wire
 		(pts
@@ -1404,16 +1404,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 22.86) (xy 57.15 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1dd6104c-ada0-469b-8199-48dd45ac9d31")
-	)
-	(wire
-		(pts
 			(xy 149.86 96.52) (xy 138.43 96.52)
 		)
 		(stroke
@@ -1421,6 +1411,16 @@
 			(type default)
 		)
 		(uuid "1edee045-4300-42f4-9a8a-415852c32ba3")
+	)
+	(wire
+		(pts
+			(xy 69.85 38.1) (xy 74.93 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "253d107d-a5d4-4b2d-b309-8bb0ffdb45c5")
 	)
 	(wire
 		(pts
@@ -1544,16 +1544,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 38.1) (xy 74.93 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f174f2e-4314-4030-a538-bf1d35905be6")
-	)
-	(wire
-		(pts
 			(xy 236.22 83.82) (xy 242.57 83.82)
 		)
 		(stroke
@@ -1644,7 +1634,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 22.86) (xy 54.61 22.86)
+			(xy 48.26 22.86) (xy 57.15 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2531,7 +2521,7 @@
 	(symbol
 		(lib_id "Relay:SANYOU_SRD_Form_C")
 		(at 62.23 30.48 0)
-		(mirror y)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2539,7 +2529,7 @@
 		(dnp no)
 		(uuid "02915373-8296-4c6c-a69d-a4e826e07cc3")
 		(property "Reference" "K1"
-			(at 76.454 29.972 0)
+			(at 48.006 30.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2548,7 +2538,7 @@
 			)
 		)
 		(property "Value" "SANYOU_SRD_Form_C"
-			(at 93.98 27.686 0)
+			(at 30.48 33.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2557,7 +2547,7 @@
 			)
 		)
 		(property "Footprint" "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C"
-			(at 50.8 31.75 0)
+			(at 73.66 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
